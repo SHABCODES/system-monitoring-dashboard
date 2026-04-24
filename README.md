@@ -6,6 +6,11 @@ This project is a real-time system monitoring platform built using Python that c
 The system simulates real-world monitoring environments used in large-scale computing infrastructures.
 
 ---
+## Demo 
+![Dashboard Preview](assets/dashboard.png)
+---
+
+---
 
 ## Features
 - Real-time monitoring of CPU, Memory, and Disk usage  
@@ -52,10 +57,7 @@ system-monitor/
 - **Visualization:** Plotly  
 - **Web Framework:** Flask  
 - **Frontend:** HTML, CSS, JavaScript  
----
-## Demo 
-![Dashboard Preview](assets/dashboard.png)
----
+
 
 ---
 
