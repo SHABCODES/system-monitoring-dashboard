@@ -79,7 +79,7 @@ This project is open-source and available under the MIT License.
 ## ▶️ Installation & Setup
 
 ### 1. Clone Repository
-```bash
+
 git clone https://github.com/yourusername/system-monitor.git
 cd system-monitor
 
@@ -91,5 +91,3 @@ python main.py
 
 4. Open Dashboard
 http://127.0.0.1:5000
----
----
