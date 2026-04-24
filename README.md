@@ -50,9 +50,3 @@ python main.py
 
 4. Open Dashboard
 http://127.0.0.1:5000
-
-M. Sabda Pyari
-Python Developer | Data & Systems Enthusiast
-
-📄 License
-This project is open-source and available under the MIT License.
