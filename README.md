@@ -56,6 +56,25 @@ system-monitor/
 ## Demo 
 ![Dashboard Preview](assets/dashboard.png)
 ---
+
+---
+## ▶️ Installation & Setup
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/yourusername/system-monitor.git
+cd system-monitor
+
+2. Install Dependencies
+pip install -r requirements.txt
+
+3. Run Application
+python main.py
+
+4. Open Dashboard
+http://127.0.0.1:5000
+```bash
+---
 💡 Key Learnings
 Designing real-time data pipelines
 Implementing anomaly detection in streaming data
@@ -73,21 +92,4 @@ M. Sabda Pyari
 Python Developer | Data & Systems Enthusiast
 
 📄 License
-
 This project is open-source and available under the MIT License.
----
-## ▶️ Installation & Setup
-
-### 1. Clone Repository
-
-git clone https://github.com/yourusername/system-monitor.git
-cd system-monitor
-
-2. Install Dependencies
-pip install -r requirements.txt
-
-3. Run Application
-python main.py
-
-4. Open Dashboard
-http://127.0.0.1:5000
