@@ -65,7 +65,7 @@ system-monitor/
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/system-monitor.git
+git clone https://github.com/yourusername/system-monitoring-dasshboard.git
 cd system-monitor
 
 ### Install Dependencies
