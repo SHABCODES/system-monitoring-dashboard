@@ -58,23 +58,29 @@ system-monitor/
 ---
 
 ---
-## ▶️ Installation & Setup
 
-### 1. Clone Repository
+## How to Run
+
+### Option 1 - Google Colab (recommended)
+Open notebook.ipynb directly in Colab. Switch runtime to T4 GPU before running.
+
+### Option 2 - Local
 ```bash
-git clone https://github.com/yourusername/system-monitor.git
-cd system-monitor
-
-2. Install Dependencies
+git clone https://github.com/SHABCODES/layoutlmv3-funsd-form-understanding
+cd layoutlmv3-funsd-form-understanding
 pip install -r requirements.txt
+jupyter notebook notebook.ipynb
+```
 
-3. Run Application
-python main.py
-
-4. Open Dashboard
-http://127.0.0.1:5000
+### Option 3 - Docker
 ```bash
+docker build -t layoutlmv3-funsd .
+docker run -p 8888:8888 layoutlmv3-funsd
+# Open http://localhost:8888 in your browser
+```
+
 ---
+
 💡 Key Learnings
 Designing real-time data pipelines
 Implementing anomaly detection in streaming data
