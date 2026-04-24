@@ -1,24 +1,24 @@
-# 🚀 Real-Time System Monitoring & Anomaly Detection Dashboard
+# Real-Time System Monitoring & Anomaly Detection Dashboard
 
-## 📌 Overview
+## Overview
 This project is a real-time system monitoring platform built using Python that collects, processes, and analyzes system-level metrics such as CPU, memory, and disk usage. It integrates machine learning-based anomaly detection with an interactive web dashboard for visualization and monitoring.
 
 The system simulates real-world monitoring environments used in large-scale computing infrastructures.
 
 ---
 
-## ⚙️ Features
-- 📊 Real-time monitoring of CPU, Memory, and Disk usage  
-- 🔄 Continuous data collection using a streaming pipeline  
-- 🤖 Anomaly detection using Isolation Forest (Machine Learning)  
-- 📈 Interactive dashboard built with Flask and Plotly  
-- 🔴 Visual anomaly highlighting on graphs  
-- 🚨 Threshold-based system alerts (Normal / Warning / Critical)  
-- ⚡ Auto-refresh dashboard for near real-time updates  
+## Features
+- Real-time monitoring of CPU, Memory, and Disk usage  
+- Continuous data collection using a streaming pipeline  
+- Anomaly detection using Isolation Forest (Machine Learning)  
+- Interactive dashboard built with Flask and Plotly  
+- Visual anomaly highlighting on graphs  
+- Threshold-based system alerts (Normal / Warning / Critical)  
+- Auto-refresh dashboard for near real-time updates  
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 1. **Data Collection Layer** → Collects system metrics using `psutil`  
 2. **Data Processing Layer** → Stores and processes time-series data using `pandas`  
 3. **ML Layer** → Detects anomalies using `IsolationForest`  
@@ -45,7 +45,7 @@ system-monitor/
 ---
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Backend:** Python  
 - **Data Processing:** Pandas, NumPy  
 - **Machine Learning:** Scikit-learn  
@@ -61,39 +61,39 @@ system-monitor/
 
 ## How to Run
 
-### Option 1 - Google Colab (recommended)
-Open notebook.ipynb directly in Colab. Switch runtime to T4 GPU before running.
+### Clone Repository
+git clone https://github.com/yourusername/system-monitor.git
+cd system-monitor
 
-### Option 2 - Local
+### Install Dependencies
 ```bash
-git clone https://github.com/SHABCODES/layoutlmv3-funsd-form-understanding
-cd layoutlmv3-funsd-form-understanding
 pip install -r requirements.txt
-jupyter notebook notebook.ipynb
 ```
 
-### Option 3 - Docker
+### Run Application
 ```bash
-docker build -t layoutlmv3-funsd .
-docker run -p 8888:8888 layoutlmv3-funsd
-# Open http://localhost:8888 in your browser
+python main.py
 ```
 
+### Open Dashboard
+```bash
+http://127.0.0.1:5000
+```
 ---
 
-💡 Key Learnings
+Key Learnings
 Designing real-time data pipelines
 Implementing anomaly detection in streaming data
 Building interactive dashboards for monitoring systems
 Handling concurrent processes using multithreading in Python
 
-🚀 Future Improvements
+Future Improvements
 Deploy dashboard on cloud platforms (AWS / Render)
 Add authentication and user management
 Integrate database (PostgreSQL / Firebase)
 Enhance anomaly detection using deep learning models
 
-👨‍💻 Author
+Author
 M. Sabda Pyari
 Python Developer | Data & Systems Enthusiast
 
