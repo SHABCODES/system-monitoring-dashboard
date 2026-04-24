@@ -72,7 +72,7 @@ System health status indicators
 Interactive controls (zoom, hover, range selection)
 
 Screenshots
-<img width="1884" height="884" alt="12c5c14c-149c-47c7-aa98-e0f3b007d5a4" src="https://github.com/user-attachments/assets/aed7664e-523a-4a0e-aa51-88563409139b" />
+<https://github.com/SHABCODES/system-monitoring-dashboard/blob/main/Project%20Result%20SS.png>
 
 Key Learnings
 Designing real-time data pipelines
