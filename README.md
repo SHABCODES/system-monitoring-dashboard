@@ -1,1 +1,94 @@
-# system-monitoring-dashboard
+# Real-Time System Monitoring & Anomaly Detection Dashboard
+
+##  Overview
+This project is a real-time system monitoring platform built using Python that collects, processes, and analyzes system-level metrics such as CPU, memory, and disk usage. It integrates machine learning-based anomaly detection with an interactive web dashboard for visualization and monitoring.
+
+The system is designed to simulate real-world monitoring environments used in large-scale computing infrastructures.
+
+---
+
+## Features
+- 📊 Real-time monitoring of CPU, Memory, and Disk usage  
+- 🔄 Continuous data collection using a streaming pipeline  
+- 🤖 Anomaly detection using Isolation Forest (Machine Learning)  
+- 📈 Interactive dashboard with Plotly and Flask  
+- 🔴 Visual anomaly highlighting on graphs  
+- 🚨 Threshold-based system alerts (Normal / Warning / Critical)  
+- ⚡ Auto-refresh dashboard for near real-time updates  
+
+---
+
+## System Architecture
+1. Data Collection Layer → Collects system metrics using `psutil`  
+2. Data Processing Layer → Stores and processes time-series data using `pandas`  
+3. ML Layer → Detects anomalies using `IsolationForest`  
+4. Visualization Layer → Displays data using Flask + Plotly dashboard  
+
+---
+
+## Tech Stack
+- **Backend:** Python  
+- **Data Processing:** Pandas, NumPy  
+- **Machine Learning:** Scikit-learn  
+- **Visualization:** Plotly  
+- **Web Framework:** Flask  
+- **Frontend:** HTML, CSS, JavaScript  
+
+---
+
+## Project Structure
+system-monitor/
+│── data/
+│ └── system_data.csv
+│
+│── data_collector.py
+│── anomaly_detector.py
+│── dashboard.py
+│── main.py
+│── requirements.txt
+│── README.md
+
+
+---
+
+## Installation & Setup
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/yourusername/system-monitor.git
+cd system-monitor
+
+2. Install Dependencies
+pip install -r requirements.txt
+3. Run Application
+python main.py
+4. Open Dashboard
+http://127.0.0.1:5000
+
+Output
+Real-time system metrics plotted as time-series graphs
+Highlighted anomaly points (red markers)
+System health status indicators
+Interactive controls (zoom, hover, range selection)
+
+Screenshots
+<img width="1884" height="884" alt="12c5c14c-149c-47c7-aa98-e0f3b007d5a4" src="https://github.com/user-attachments/assets/aed7664e-523a-4a0e-aa51-88563409139b" />
+
+Key Learnings
+Designing real-time data pipelines
+Implementing anomaly detection in streaming data
+Building interactive dashboards for monitoring systems
+Handling concurrent processes in Python
+
+Future Improvements
+Deploy dashboard on cloud (AWS / Render)
+Add authentication system
+Integrate database (PostgreSQL / Firebase)
+Enhance anomaly detection using deep learning models
+
+Author
+M. Sabda Pyari
+Python Developer | Data & Systems Enthusiast
+
+📄 License
+This project is open-source and available under the MIT License.
