@@ -52,10 +52,10 @@ system-monitor/
 - **Visualization:** Plotly  
 - **Web Framework:** Flask  
 - **Frontend:** HTML, CSS, JavaScript  
-
-📸 Demo
+---
+## Demo 
 ![Dashboard Preview](assets/dashboard.png)
-
+---
 💡 Key Learnings
 Designing real-time data pipelines
 Implementing anomaly detection in streaming data
