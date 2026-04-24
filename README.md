@@ -33,8 +33,9 @@ The system simulates real-world monitoring environments used in large-scale comp
 - **Visualization:** Plotly  
 - **Web Framework:** Flask  
 - **Frontend:** HTML, CSS, JavaScript  
+
 📸 Demo
-assets/dashboard.png
+![Dashboard Preview](assets/dashboard.png)
 
 💡 Key Learnings
 Designing real-time data pipelines
