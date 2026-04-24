@@ -50,6 +50,7 @@ python main.py
 
 4. Open Dashboard
 http://127.0.0.1:5000
+---
 
 📊 Output
 Real-time system metrics plotted as time-series graphs
