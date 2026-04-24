@@ -33,7 +33,28 @@ The system simulates real-world monitoring environments used in large-scale comp
 - **Visualization:** Plotly  
 - **Web Framework:** Flask  
 - **Frontend:** HTML, CSS, JavaScript  
+📸 Demo
+assets/dashboard.png
 
+💡 Key Learnings
+Designing real-time data pipelines
+Implementing anomaly detection in streaming data
+Building interactive dashboards for monitoring systems
+Handling concurrent processes using multithreading in Python
+
+🚀 Future Improvements
+Deploy dashboard on cloud platforms (AWS / Render)
+Add authentication and user management
+Integrate database (PostgreSQL / Firebase)
+Enhance anomaly detection using deep learning models
+
+👨‍💻 Author
+M. Sabda Pyari
+Python Developer | Data & Systems Enthusiast
+
+📄 License
+
+This project is open-source and available under the MIT License.
 ---
 ## ▶️ Installation & Setup
 
