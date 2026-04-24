@@ -48,7 +48,6 @@ system-monitor/
 ```
 
 ---
----
 
 ## Tech Stack
 - **Backend:** Python  
