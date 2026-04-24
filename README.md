@@ -26,6 +26,25 @@ The system simulates real-world monitoring environments used in large-scale comp
 
 ---
 
+## Project Structure
+
+```
+system-monitor/
+│── data_collector.py
+│── anomaly_detector.py
+│── dashboard.py
+│── main.py
+│── utils.py
+│── requirements.txt
+│── README.md
+│── assets/
+│   └── dashboard.png
+│── README.md
+```
+
+---
+---
+
 ## 🛠️ Tech Stack
 - **Backend:** Python  
 - **Data Processing:** Pandas, NumPy  
