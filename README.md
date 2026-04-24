@@ -58,7 +58,8 @@ System health status indicators
 Interactive controls (zoom, hover, range selection)
 
 📸 Demo
-!(Project Result SS.png)
+![Dashboard Screenshot](dashboard.png)
+
 Key Learnings
 Designing real-time data pipelines
 Implementing anomaly detection in streaming data
