@@ -69,7 +69,6 @@ git clone https://github.com/yourusername/system-monitor.git
 cd system-monitor
 
 ### Install Dependencies
-```bash
 pip install -r requirements.txt
 ```
 
