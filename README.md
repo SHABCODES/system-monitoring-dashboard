@@ -61,7 +61,10 @@ system-monitor/
 
 ## How to Run
 
-### Clone Repository
+## ▶️ Installation & Setup
+
+### 1. Clone Repository
+```bash
 git clone https://github.com/yourusername/system-monitor.git
 cd system-monitor
 
