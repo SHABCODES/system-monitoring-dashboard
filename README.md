@@ -57,7 +57,8 @@ Highlighted anomaly points (red markers)
 System health status indicators
 Interactive controls (zoom, hover, range selection)
 
-📸 Demo
+## 📸 Demo
+
 ![Dashboard Screenshot](dashboard.png)
 
 Key Learnings
